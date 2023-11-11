@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+#loading{
+    z-index: 555555555555555555555555555555555555;
+    position:fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #888888;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.leftNav{
+    width: 7rem;
+    display: none;
+    
+    
+
+}
+.rightNav{
+    width: 4rem;
+}
+.selecto{
+    cursor: pointer;
+}
+.leftNav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    font-weight: 200;
+}
+.leftNav h2{
+    margin: 1.5rem;
+    display: none;
+}
+.layer{
+    background-color: rgb(255, 255, 255,0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    /* width: 87%; */
+   transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+    justify-content: center;
+
+
+    
+
+   
+}
+div{
+    cursor: pointer;
+}
+.layer:hover{
+    opacity: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* transition: 1s; */
+
+}
+
+.test{
+    z-index: 1000000;
+
+}
+.test h2{
+    cursor: pointer;
+}
+.containersRows{
+    width: 85%;
+    margin: auto;
+    margin-top:3rem;
+   
+}
+.containers{
+    margin: auto;
+    margin-top: 4rem;
+    width: 75%;
+}
+.des{
+    width: 17%;
+}
+.recipebg{
+    background-color: #d4edda;
+    color: rgb(21, 87, 36);
+
+}
+.tagBg{
+    color: #721c24;
+    background-color: #f8d7da;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.build{
+    color: #721c24;
+
+
+}
+.icon{
+    font-size: 3rem;
+}
+.testingred{
+
+    height: 6rem;
+    overflow: hidden;
+}
+.iconingred{
+    color:rgb(21, 87, 36); 
+}
