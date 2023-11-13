@@ -176,7 +176,7 @@ result?result.map((item)=>{
    result.map((item) => {
     return    row.innerHTML+=`
        
-    <div class=" col-lg-3 col-md-3 col-sm-12 position-relative">
+    <div class=" col-lg-3  position-relative">
      <div onclick="filterCateg('${item.strCategory}')">
                 
         <div class="layer fs-2 px-3"><div>${item.strCategory}
@@ -212,7 +212,7 @@ result.map((item)=>{
 
 
 return    row.innerHTML+=`
-<div class=" col-lg-3 col-md-3 col-sm-12 position-relative">
+<div class=" col-lg-3  position-relative">
 
 <div onclick=' getDataById(${item.idMeal})'>
 <div class="layer fs-2 px-3"><div>${item.strMeal}
@@ -247,7 +247,7 @@ result=response.meals;
 console.log(result);
 result.map((item) => {
     return     row.innerHTML+=`
-    <div class="col-lg-3 col-sm-12 col-md-3    position-relative">
+    <div class="col-lg-3    position-relative">
 
 
    
@@ -276,7 +276,7 @@ async function filterByArea(id){
     result=response.meals;
 result.map((item)=>{
     return        row.innerHTML+=`
-    <div class="col-lg-3   col-sm-12 col-md-3  position-relative">
+    <div class="col-lg-3    position-relative">
     <div onclick=' getDataById(${item.idMeal})'>
                
        <div class="layer fs-2 px-3"><div>${item.strMeal}
@@ -342,7 +342,7 @@ result.map((item)=>{
 
 
     return        row.innerHTML+=`
-    <div class="col-lg-3 col-md-3 col-sm-12 position-relative">
+    <div class="col-lg-3  position-relative">
     <div onclick=' getDataById(${item.idMeal})'>
                
        <div class="layer fs-2 px-3"><div>${item.strMeal}
@@ -574,7 +574,8 @@ console.log(usernamevalid)
 
 
 
-$(document).ready(function(){
+$(document).ready(function(){ 
+     
 console.log("ffff")
 
 $("#loading .spinner").fadeOut(1000,function(){
